@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.1.1]
+
+- Bump Copilot CLI version to 1.0.24; no content changes
+
 ## [0.1.0]
 
 - Initial release: `ansible-molecule` skill migrated from user-level to plugin for versioning and distribution
