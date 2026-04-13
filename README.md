@@ -19,3 +19,5 @@ GitHub Copilot CLI plugin for infrastructure development: Ansible roles and coll
 ```bash
 copilot plugin install gh:e-roux/agent-plugin-infra
 ```
+
+Verify the plugin is loaded with `/env` — it lists active plugins, skills, and hooks.
