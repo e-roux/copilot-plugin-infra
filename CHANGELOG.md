@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.6]
+
+- Move plugin manifest to `.claude-plugin/plugin.json` — DRY path for both Copilot CLI and Claude Code
+- Add dual-cased hooks: PascalCase events for Claude Code alongside camelCase for Copilot CLI
+- Use `$CLAUDE_PLUGIN_ROOT` (set by both tools) instead of `$COPILOT_PLUGIN_ROOT`
+
 ## [0.1.5]
 
 - Align with Vulcan v0.18.0 dual-tool DRY guidance (no plugin-side changes needed — this plugin has no portable skill-path references)
