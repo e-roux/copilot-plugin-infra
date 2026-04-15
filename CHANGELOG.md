@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.5]
+
+- Align with Vulcan v0.18.0 dual-tool DRY guidance (no plugin-side changes needed — this plugin has no portable skill-path references)
+- Bump patch version for metadata alignment
+
 ## [0.1.4]
 
 - Bump Copilot CLI to 1.0.27 (SDK unchanged at 0.2.2)
