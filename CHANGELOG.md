@@ -1,5 +1,11 @@
 # Changelog
 
+## [0.1.4]
+
+- Bump Copilot CLI to 1.0.27 (SDK unchanged at 0.2.2)
+- Hook scripts now use `$COPILOT_PLUGIN_ROOT` env var for path resolution instead of relative paths (CLI 1.0.26 provides `PLUGIN_ROOT`, `COPILOT_PLUGIN_ROOT`, `CLAUDE_PLUGIN_ROOT` to all hook commands)
+- Add `copilot plugin marketplace update` command to README (CLI 1.0.27)
+
 ## [0.1.3]
 
 - Bump Copilot CLI to 1.0.25; add `copilotSdkVersion` metadata field

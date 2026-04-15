@@ -1,7 +1,7 @@
 {
   "name": "infra",
   "description": "Infrastructure development plugin: Ansible roles and collections with Molecule testing (Podman driver), IaC conventions, and Make-centric workflow.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "author": {
     "name": "Emmanuel Roux"
   },
@@ -16,9 +16,9 @@
   ],
   "category": "development",
   "_meta": {
-    "copilotCliVersion": "1.0.25",
+    "copilotCliVersion": "1.0.27",
     "copilotSdkVersion": "0.2.2",
-    "lastVerified": "2026-04-13"
+    "lastVerified": "2026-04-15"
   },
   "hooks": "hooks/hooks.json",
   "skills": "skills/"
