@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.7]
+
+- Split dual-manifest schema: root `plugin.json` for Copilot CLI (full format with `_meta`, `hooks`, `skills`), `.claude-plugin/plugin.json` for Claude Code (minimal: name, description, version, author, license, keywords only)
+- Split hooks: `hooks/hooks.copilot.json` (camelCase for Copilot CLI), `hooks/hooks.json` (PascalCase only for Claude Code auto-discovery)
+
 ## [0.1.6]
 
 - Move plugin manifest to `.claude-plugin/plugin.json` — DRY path for both Copilot CLI and Claude Code
